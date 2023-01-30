@@ -1,38 +1,225 @@
-.App {
-  text-align: center;
+
+.homeDiv{
+  height: 100vh;
+  background-color: #404560;
+  padding-top: 15vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.borWhite{
+  margin-top: -15vh;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #20212b !important;
+  color: #eee;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.linkMenu{
+  color: #eee;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo{
+  width: 20vw;
+  height: 10vh;
+}
+
+/* LogIn Css */
+
+.HomeMainDiv{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.formDiv{
+  margin: 20vh auto;
+  background-color: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formDiv img{
+  width: 400px;
+  max-width: 90%;
+  height: 100px;
+  margin-bottom: 30px;
 }
+
+.mainLabel{
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bttn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnlogin{
+  background-color: #0cbc4f;
+  width: 100px;
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.btnlogin:hover{
+  background-color:#04682a;
+}
+
+.createInfo{
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.createNewBn{
+  color: #0cbc4f;
+  text-decoration: none;
+  border-bottom: 1px solid #0cbc4f ;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.createNewBn:hover{
+  color: #04682a;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 1%;
+  text-align: center;
+  color: white;
+  background-color: #282a36;
+}
+
+footer h6{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Emi calculator page */
+
+.emiDiv {
+  border-radius: 5px;
+  background-color: rgb(246, 250, 242);
+  padding-top: 50px;
+  width: 30vw;
+  height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7vh;
+}
+
+form{
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+label{
+  font-weight: bold;
+  margin-bottom: 1vh;
+}
+
+input[type=number]{
+  width: 20vw;
+}
+
+input[type=submit] {
+  width: 10vw;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input[type=submit]:hover {
+  width: 10vw;
+  background-color: #45a049;
+}
+
+.divEmi{
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.fullScreen{
+  width: 100vw;
+  display: flex;
+}
+
+.fullScreenCal{
+  margin-left: 10vw;
+}
+
+.tableDiv{
+  width: 50vw;
+  height: 70vh;
+  margin-top: 7vh;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.tableHead{
+  text-align: center;
+  margin: 3%;
+  font-weight: bold;
+}
+
+.totalCount{
+  width: 20vw;
+  height: 7vh;
+  background-color: transparent;
+  position: absolute;
+  top: 14vh;
+  right: 5vw;
+  text-align: center;
+  color: rgb(217, 213, 213);
+}
+
+.totalCount button{
+  background-color: transparent;
+  color: rgb(217, 213, 213);
+  font-weight: bold;
+}
+
+.totalCount button:hover{
+  border: 1px solid rgb(217, 213, 213);
+}
+
+.errorPage{
+  height: 100vh;
+  background-color: white;
+}
+
+
